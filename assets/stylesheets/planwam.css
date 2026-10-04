@@ -168,7 +168,7 @@ a:hover {
 .hero-visual {
     position: relative;
     margin: 0;
-    padding: 1.3rem;
+    padding: 0.7rem 0.7rem 0.85rem;
     background: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(217, 224, 220, 0.92);
     box-shadow: 0 20px 50px rgba(31, 52, 57, 0.09);
@@ -186,8 +186,10 @@ a:hover {
 }
 
 .hero-visual img {
-    aspect-ratio: 3270 / 1083;
-    object-fit: contain;
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: fill;
 }
 
 .hero-visual figcaption,
@@ -576,6 +578,10 @@ tr.baseline td {
 tr.ours td {
     background: #fff1e9;
     color: #793c31;
+    font-weight: 700;
+}
+
+.section-block td.best {
     font-weight: 700;
 }
 
