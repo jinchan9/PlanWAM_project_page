@@ -101,14 +101,15 @@ a:hover {
 .hero-authors {
     margin: 0;
     color: var(--ink);
-    font-size: 1.05rem;
-    font-style: italic;
+    font-size: 1rem;
+    font-style: normal;
     font-weight: 600;
+    line-height: 1.55;
 }
 
 .hero-status {
     margin: 0.15rem 0 1.5rem;
-    color: var(--muted);
+    color: var(--ink);
     font-size: 0.84rem;
     letter-spacing: 0.02em;
 }
